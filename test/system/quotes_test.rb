@@ -16,15 +16,15 @@ class QuotesTest < ApplicationSystemTestCase
     click_on "New Quote"
     assert_selector "h1", text: "New Quote"
 
-    # When we fill in the name input with "Test quote"
+    # When we fill in the name input with "Capybara quote"
     # and we click on "Create Quote"
-    fill_in "Name", with: "Test quote"
+    fill_in "Name", with: "Capybara quote"
     click_on "Create quote"
 
     # We expect to be back on the page with the title "Quotes"
-    # and to see our "Test quote" added to the list
+    # and to see our "Capybara quote" added to the list
     assert_selector "h1", text: "Quotes"
-    assert_text "Test quote"
+    assert_text "Capybara quote"
   end
 
   test "Showing a quote" do
