@@ -4,6 +4,6 @@
       <%= quote.errors.full_messages.to_sentence.capitalize %>
     </div>
   <% end %>
-  <%= f.input :name, input_html: { autofocus: true } %>
+  <%= f.input :name, input_html: { autofocus: true } %> <%# autofocus used to direct cursor to input field on load%>
   <%= f.submit class: "btn btn--secondary" %>
 <% end %>
