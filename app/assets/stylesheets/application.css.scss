@@ -14,20 +14,20 @@
  *= require_self
  */
 
-// Mixins
+/* // Mixins */
 @import "mixins/media";
 
-// Configuration
+/* // Configuration */
 @import "config/variables";
 @import "config/reset";
 
-// Components
+/* // Components */
 @import "components/btn";
 @import "components/error_message";
 @import "components/form";
 @import "components/visually_hidden";
 @import "components/quote";
 
-// Layouts
+/* // Layouts */
 @import "layouts/container";
 @import "layouts/header";
